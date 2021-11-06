@@ -153,7 +153,7 @@ def Nvidia():
     return model
 ```
 #### 2. Choose the appropriate model
-When I fit the model with data, I choose to have 10 epoch. After the completion of each epoch, we have a callback function to save the model generated with validation loss information. All these models are saved in the folder [backups](backups).
+When I fit the model with data, I choose to have 10 epoch. After the completion of each epoch, we have a callback function to save the model generated with validation loss information. All these models are saved in the folder [backups](backups). At the end, I decided to use the model with the lowest validation loss.
 
 
 #### 3. Creation of the Training Set & Training Process
