@@ -152,7 +152,10 @@ def Nvidia():
     plot_model(model, to_file='Images/Nvidia_Model.png',show_shapes=True, rankdir='TB');
     return model
 ```
+#### 2. Choose the appropriate model
+When I fit the model with data, I choose to have 10 epoch. After the completion of each epoch, we have a callback function to save the model generated with validation loss information. All these models are saved in the folder [backups](backups).
 
-#### 2. Creation of the Training Set & Training Process
+
+#### 3. Creation of the Training Set & Training Process
 I used the data set given to me from udacity in the [link](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip). This was sufficient to complete the track.
 
